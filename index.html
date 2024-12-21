@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Foodie's Paradise</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Fresh Food, Delivered Fast</h2>
+        <p>Delicious meals at your fingertips. Order now!</p>
+        <button onclick="alert('Start exploring our menu!')">Explore Now</button>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="products">
+            <div class="product">
+                <img src="some pictures/pizza.jpeg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Price: ksh1000.00</p>
+                <button onclick="addToCart('Pizza')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="some pictures/burger.jpeg" alt="Burger">
+                <h3>Burger</h3>
+                <p>Price: ksh750</p>
+                <button onclick="addToCart('Burger')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="some pictures/pasta.jpeg" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>Price: ksh800</p>
+                <button onclick="addToCart('Pasta')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Foodie's Paradise. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
